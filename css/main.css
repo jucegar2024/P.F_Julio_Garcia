@@ -18,29 +18,31 @@ body {
 }
 
 .title {
-  width: 150px;
-  height: 25px;
-  padding: 2px;
-  margin: 20px;
-  background-color: #0000ff;
+  width: 100vh;
+  height: 20vh;
+  background-color: #63b9ea42;
   border: solid;
   border-color: gray;
   border-radius: 50px;
-  font-size: 0.8rem;
+  font-size:xx-large; 
   color: #ffff00;
   text-align: center;
+  text-justify: auto;
+  padding: 3rem;
+
 }
 
 .main_menu {
-  width: 180px;
-  height: 80px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: max-content;
+  height: max-content;
   background-color: rgba(128, 128, 128, 0.185);
   list-style-position: inside;
-  border: 3rem;
+  border: 10rem;
   align-items: start;
-  margin-left: 10px;
-  padding-left: 25px;
-  border-radius: 100px;
+  border-radius: 60px;
+  padding: 1rem 4rem 1rem 4rem;
 }
 .item {
   list-style-position: inside;
@@ -108,7 +110,7 @@ body {
 .contacto_title{
   color: #fdc243;
   padding: 2rem;
-  background-color: rgba(99, 185, 234, 0.26);
+  background-color: #63b9ea42;
 }
 
 .grilla{
