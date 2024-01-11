@@ -43,9 +43,13 @@ body {
   align-items: start;
   border-radius: 60px;
   padding: 1rem 4rem 1rem 4rem;
+  display: flex;
+
 }
 .item {
   list-style-position: inside;
+  padding: 1rem;
+  
 }
 
 .item a {
