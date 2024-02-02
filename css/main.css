@@ -12,25 +12,22 @@ body {
   background-size: 100%;
 }
 
+/* logo */
+
+.logo{
+
+  color: #fdc243;
+}
+.title{
+  max-width: max-content;
+}
+
 /* Main */
 .main_bg_img {
   background-image: url("../images/ajusta.jpg");
+  
 }
 
-.title {
-  width: 100vh;
-  height: 20vh;
-  background-color: #63b9ea42;
-  border: solid;
-  border-color: gray;
-  border-radius: 50px;
-  font-size:xx-large; 
-  color: #ffff00;
-  text-align: center;
-  text-justify: auto;
-  padding: 3rem;
-
-}
 
 .main_menu {
   margin-top: 1rem;
@@ -39,17 +36,19 @@ body {
   height: max-content;
   background-color: rgba(128, 128, 128, 0.185);
   list-style-position: inside;
+  list-style-type: none;
   border: 10rem;
   align-items: start;
   border-radius: 60px;
   padding: 1rem 4rem 1rem 4rem;
   display: flex;
-
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 .item {
   list-style-position: inside;
   padding: 1rem;
-  
 }
 
 .item a {
@@ -63,6 +62,12 @@ body {
   background-image: url(../images/trabajando.avif);
 }
 
+.nosotros_container {
+  display: flex;
+  flex-direction: row;
+}
+
+
 .nosotros_h1 {
   margin: 20px;
   padding: 15px;
@@ -71,21 +76,26 @@ body {
   color: #fdc243;
 }
 
-.nosotros_h2 {
-  background-color: #363642;
+.title_historia, .title_quienes, .title_experiencia, .title_compromiso,
+ .title_unete {
+  text-align: center;
   width: 300px;
-  height: 50px;
+  height: 80px;
+  background-color: #363642;
   padding: 15px;
   margin: 20px;
   text-align: center;
   color: #fdc243;
 }
 
-.historia {
+.parrafo_historia, .parrafo_quienes, .parrafo_experiencia,
+ .parrafo_compromiso, .parrafo_unete {
   width: 300px;
   background-color: #5757f8;
   margin: 20px;
   padding: 15px;
+  vertical-align: middle;
+  display: inline-block
 }
 
 /* Productos */
@@ -117,6 +127,7 @@ body {
   background-color: #63b9ea42;
 }
 
+
 .grilla{
   height: 100vh;
   display: grid;
@@ -144,7 +155,19 @@ body {
   padding: 1rem;
 }
 
-/* Servicio */
+/* Servicios */
+
+.servicios_container {
+  display: flex;
+  flex-direction: column;
+  background-color: #3066d195;
+  
+  
+}
+
+.ventas{
+  background-color: #fdc2438f;
+}
 
 .servicios_bg_img {
   background-image: url(../images/living_con_aire.jpg);
@@ -161,13 +184,5 @@ body {
   margin: 5px;
   padding: 5px;
   color: #1a2b4d;
-  background-color: rgba(255, 235, 205, 0.1);
 }
 
-.servicios_container {
-  margin: 1rem;
-  display: flex;
-  flex-direction: column;
-  height: 80vh;
-  justify-content: space-around;
-}
