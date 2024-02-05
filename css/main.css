@@ -9,51 +9,16 @@
 
 body {
   background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-/* logo */
-
-.logo{
-
-  color: #fdc243;
-}
-.title{
-  max-width: max-content;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
 }
 
 /* Main */
 .main_bg_img {
-  background-image: url("../images/ajusta.jpg");
-  
-}
+  background-image: url("../images/ajusta.jpg"); 
 
 
-.main_menu {
-  margin-top: 1rem;
-  margin-left: 1rem;
-  width: max-content;
-  height: max-content;
-  background-color: rgba(128, 128, 128, 0.185);
-  list-style-position: inside;
-  list-style-type: none;
-  border: 10rem;
-  align-items: start;
-  border-radius: 60px;
-  padding: 1rem 4rem 1rem 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-.item {
-  list-style-position: inside;
-  padding: 1rem;
-}
-
-.item a {
-  color: #0000ff;
-  text-decoration: none;
 }
 
 /* Nosotros */
@@ -64,49 +29,42 @@ body {
 
 .nosotros_container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  
 }
 
 
 .nosotros_h1 {
-  margin: 20px;
+  margin-top: 3.5rem;
   padding: 15px;
   text-align: center;
   background-color: #68689b;
   color: #fdc243;
 }
 
-.title_historia, .title_quienes, .title_experiencia, .title_compromiso,
- .title_unete {
+.nosotros_h2 {
   text-align: center;
   width: 300px;
-  height: 80px;
+  height: max-content;
   background-color: #363642;
   padding: 15px;
   margin: 20px;
-  text-align: center;
   color: #fdc243;
 }
 
-.parrafo_historia, .parrafo_quienes, .parrafo_experiencia,
- .parrafo_compromiso, .parrafo_unete {
+.nosotros_p {
   width: 300px;
   background-color: #5757f8;
   margin: 20px;
   padding: 15px;
-  vertical-align: middle;
-  display: inline-block
+  text-align: center;
 }
 
 /* Productos */
 
-.nav_productos {
-  background-color: blue;
-}
-
 .productos_h1 {
-  margin: 10px;
-  padding: 30px;
+  
+  margin-top: 3.5rem;
   text-align: center;
 }
 
@@ -123,13 +81,13 @@ body {
 }
 .contacto_title{
   color: #fdc243;
+  margin-top: 3.5rem;
   padding: 2rem;
   background-color: #63b9ea42;
 }
 
 
-.grilla{
-  height: 100vh;
+.contacto_grilla{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 100%;
@@ -138,22 +96,20 @@ body {
 }
 
 
-.principal{
+.contacto_h2{
   color: #fdc243;
   padding: 1rem;
   background-color: #8282bf62;
 
 }
-.datos{
+.contacto_datos{
   list-style-position: inside;
   color: #5757f8;
   background-color: #c3c3dd46;
   padding: 0.5rem;
   margin-top: 1rem;
 }
-.contacto_body li{
-  padding: 1rem;
-}
+
 
 /* Servicios */
 
@@ -175,7 +131,7 @@ body {
 
 .servicios_h1 {
   font-size: 50px;
-  margin: 10px;
+  margin-top: 3.5rem;
   padding: 10px;
   text-align: center;
 }
