@@ -16,33 +16,47 @@ body {
 
 /* Main */
 .main_bg_img {
-  background-image: url("../images/ajusta.jpg"); 
-
+  background-image: url("../images/ajusta.jpg");
 }
 
-.nav-link{
+.nav-link {
   color: #fdc243;
 }
 
-.logo{
+.logo {
   color: #fdc243;
 }
 
-.index_img{
-
+.index_img {
   height: 80vh;
 }
 
 /* Nosotros */
-
 .nosotros_bg_img {
   background-image: url(../images/trabajando.avif);
 }
 
 .nosotros_container {
-   display: flex;
-   height: 80%;
-   
+  display: flex;
+  height: 80%;
+}
+.nosotros_container .nosotros_h2 {
+  text-align: center;
+  width: 300px;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: #363642;
+  padding: 15px;
+  margin: 20px;
+  color: #fdc243;
+}
+.nosotros_container .nosotros_h2 .nosotros_p {
+  color: #fdc243;
+  max-width: 100%;
+  padding-inline: 10px;
+  background-color: rgba(87, 87, 248, 0.0901960784);
+  margin: 20px;
+  text-align: center;
 }
 
 .nosotros_h1 {
@@ -53,29 +67,8 @@ body {
   color: #fdc243;
 }
 
-.nosotros_h2 {
-  text-align: center;
-  width: 300px;
-  height: max-content;
-  background-color: #363642;
-  padding: 15px;
-  margin: 20px;
-  color: #fdc243;
-}
-
-.nosotros_p {
-  color: #fdc243;
-  max-width: 100%;
-  padding-inline: 10px;
-  background-color: #5757f817;
-  margin: 20px;
-  text-align: center;
-}
-
 /* Productos */
-
 .productos_h1 {
-  
   margin-top: 3.5rem;
   text-align: center;
 }
@@ -83,68 +76,58 @@ body {
 .card img {
   height: 35vh;
   width: auto;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 /* contacto */
-
-.contacto_body{
+.contacto_body {
   background-image: url(../images/operador.jpg);
 }
-.contacto_title{
+
+.contacto_title {
   color: #fdc243;
   margin-top: 3.5rem;
   padding: 2rem;
-  background-color: #63b9ea42;
+  background-color: rgba(99, 185, 234, 0.2588235294);
 }
 
-
-.contacto_grilla{
+.contacto_grilla {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 5rem;
-  gap: 1rem; 
+  gap: 1rem;
   height: 80%;
 }
-
-
-.contacto_h2{
+.contacto_grilla .contacto_h2 {
   color: #fdc243;
   padding: 1rem;
-  background-color: #8282bf62;
-
+  background-color: rgba(130, 130, 191, 0.3843137255);
 }
-.contacto_datos{
+.contacto_grilla .contacto_datos {
   list-style-position: inside;
   color: #5757f8;
-  background-color: #c3c3dd46;
+  background-color: rgba(195, 195, 221, 0.2745098039);
   padding: 0.5rem;
   margin-top: 1rem;
 }
 
-
 /* Servicios */
-
 .servicios_container {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  
-  
 }
-
-.servicios_cards{
+.servicios_container .servicios_cards {
   padding-inline: 0.5rem;
-  background-color: #68689b3e;
+  background-color: rgba(104, 104, 155, 0.2431372549);
 }
-
-.servicios_p{
+.servicios_container .servicios_p {
   color: #fdc243;
 }
 
 .servicios_bg_img {
   background-image: url(../images/living_con_aire.jpg);
-
 }
 
 .servicios_h1 {
@@ -160,5 +143,4 @@ servicios_h2 {
   color: #1a2b4d;
 }
 
-/* footer */
-
+/* footer *//*# sourceMappingURL=estilos.css.map */
