@@ -20,7 +20,7 @@ body {
 }
 
 .nav-link {
-  color: #fdc243;
+  color: #3427c6;
 }
 
 .logo {
@@ -52,6 +52,7 @@ body {
 
 .nosotros_container {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 .nosotros_container .nosotros_tarjeta {
@@ -161,15 +162,20 @@ body {
 }
 
 /* footer */
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
 /* media @*/
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 420px) {
   .contacto_grilla {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "telefonos whatsapp " "sucursales whatsapp";
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 420px) {
   .index_hero {
     flex-direction: column;
     gap: 1rem;
