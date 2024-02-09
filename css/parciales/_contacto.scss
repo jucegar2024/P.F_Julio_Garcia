@@ -1,0 +1,46 @@
+.contacto_body{
+    background-image: url(../images/operador.jpg);
+  }
+  .contacto_title{
+    color: #fdc243;
+    margin-top: 3.5rem;
+    padding: 2rem;
+    background-color: #63b9ea42;
+  }
+  
+  
+  .contacto_grilla{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "telefonos whatsapp sucursales"
+    "telefonos whatsapp sucursales";
+    margin-top: 5rem;
+    gap: 1rem; 
+    height: 80%;
+    .telefonos{
+      grid-area: telefonos;
+    }
+    
+    .whatsapp{
+      grid-area: whatsapp;
+    }
+    
+    .sucursales{
+      grid-area: sucursales;
+    }
+    .contacto_h2{
+      color: #fdc243;
+      padding: 1rem;
+      background-color: #8282bf62;
+    
+    }
+    .contacto_datos{
+      list-style-position: inside;
+      color: #5757f8;
+      background-color: #c3c3dd46;
+      padding: 0.5rem;
+      margin-top: 1rem;
+    }
+  }

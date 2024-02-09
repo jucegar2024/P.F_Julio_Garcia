@@ -1,0 +1,25 @@
+.servicios_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    .servicios_cards{
+      padding-inline: 0.5rem;
+      background-color: #68689b3e;
+    }
+    .servicios_p{
+      color: #0b136f;
+    }
+    
+  }
+  
+  .servicios_bg_img {
+    background-image: url(../images/living_con_aire.jpg);
+  
+  }
+  
+  .servicios_h1 {
+    font-size: 50px;
+    margin-top: 3.5rem;
+    padding: 10px;
+    text-align: center;
+  }
